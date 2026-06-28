@@ -2,13 +2,13 @@
 
 A professional medical cannabis licensing consultancy that guides patients through the entire process of obtaining, renewing, and upgrading their medical cannabis licenses in Israel. The service includes doctor consultations and recommendations, dosage increase support, and full bureaucratic accompaniment — positioning itself as a trusted, knowledgeable partner in the medical cannabis space.
 
-Source: https://cannamed-4e98b087.zappy5.app
+Source: https://example.com
 
 ---
 
 ## מקבלים רישיון קנאביס רפואי בלי בירוקרטיה — CannaMed
 
-URL: https://cannamed-4e98b087.zappy5.app
+URL: https://example.com
 Description: CannaMed מלווה אתכם צעד אחר צעד בתהליך חידוש רישיון לקנאביס רפואי, ייעוץ רפואי והגדלת מינון. פנו עוד היום לשירות אישי ומקצועי ללא טרחה.
 
 מקבלים רישיון קנאביס רפואי בלי בירוקרטיה — CannaMed
@@ -596,7 +596,7 @@ Description: CannaMed מלווה אתכם צעד אחר צעד בתהליך חי
 
 ## מדיניות פרטיות
 
-URL: https://cannamed-4e98b087.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -862,7 +862,7 @@ CannaMed ("החברה", "אנו", "שלנו") מחויבת להגן על פרט�
 
 ## הצהרת נגישות
 
-URL: https://cannamed-4e98b087.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1137,7 +1137,7 @@ CannaMed מחויבת להנגיש את השירותים לכלל הציבור. 
 
 ## תנאי שימוש
 
-URL: https://cannamed-4e98b087.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1431,7 +1431,7 @@ CannaMed מספקת Medical Cannabis Consulting דרך האתר. השירותי�
 
 ## תודה על פנייתך
 
-URL: https://cannamed-4e98b087.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: CannaMed - תודה על פנייתך
 
 תודה על פנייתך
