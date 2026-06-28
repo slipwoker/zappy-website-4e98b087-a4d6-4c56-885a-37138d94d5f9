@@ -1,0 +1,71 @@
+# CannaMed — Generative Engine Optimization Map
+
+> A professional medical cannabis licensing consultancy that guides patients through the entire process of obtaining, renewing, and upgrading their medical cannabis licenses in Israel. The service includes doctor consultations and recommendations, dosage increase support, and full bureaucratic accompaniment — positioning itself as a trusted, knowledgeable partner in the medical cannabis space.
+
+---
+
+## Pages
+
+### בית
+https://cannamed-4e98b087.zappy5.app
+CannaMed מלווה אתכם צעד אחר צעד בתהליך חידוש רישיון לקנאביס רפואי, ייעוץ רפואי והגדלת מינון. פנו עוד היום לשירות אישי ומקצועי ללא טרחה.
+
+### תודה על פנייתך
+https://cannamed-4e98b087.zappy5.app/thank-you
+CannaMed - תודה על פנייתך
+
+## Legal & Policy
+
+### Privacy Policy
+https://cannamed-4e98b087.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://cannamed-4e98b087.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://cannamed-4e98b087.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://cannamed-4e98b087.zappy5.app
+- Endpoint: https://cannamed-4e98b087.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About CannaMed
+A professional medical cannabis licensing consultancy that guides patients through the entire process of obtaining, renewing, and upgrading their medical cannabis licenses in Israel. The service includes doctor consultations and recommendations, dosage increase support, and full bureaucratic accompaniment — positioning itself as a trusted, knowledgeable partner in the medical cannabis space.
+
+## Target Audience
+- מטופלים המעוניינים בקנאביס רפואי, חידוש רישיונות והגדלת מינונים
+- מטופלים פוטנציאליים
+- מחפשי חידוש רישיון
+- מטפלים של מטופלים
+
+## Industry
+Medical Cannabis Consulting
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://cannamed-4e98b087.zappy5.app/sitemap.xml
+- Robots: https://cannamed-4e98b087.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://cannamed-4e98b087.zappy5.app/llms-full.txt
