@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="123-456-7890" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972548383394" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972548383394';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -846,9 +846,9 @@
   <div class="index-hero-divider-wrapper" data-no-icon-edit="true" aria-hidden="true">
     <svg viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Contour-like topographic lines dissolving into the light section below -->
-      <path d="M0,100 L0,60 Q150,55 300,65 T600,55 Q750,62 900,58 T1200,65 L1200,100 Z" fill="#F7F5F2" opacity="0.95"/>
-      <path d="M0,100 L0,75 Q200,70 400,80 T800,72 Q1000,78 1200,75 L1200,100 Z" fill="#F7F5F2" opacity="0.7"/>
-      <path d="M0,100 L0,88 Q250,84 500,90 T1000,86 L1200,88 L1200,100 Z" fill="#F7F5F2" opacity="0.4"/>
+      <path d="M0,100 L0,60 Q150,55 300,65 T600,55 Q750,62 900,58 T1200,65 L1200,100 Z" fill="#F7F5F2" opacity="0.95"></path>
+      <path d="M0,100 L0,75 Q200,70 400,80 T800,72 Q1000,78 1200,75 L1200,100 Z" fill="#F7F5F2" opacity="0.7"></path>
+      <path d="M0,100 L0,88 Q250,84 500,90 T1000,86 L1200,88 L1200,100 Z" fill="#F7F5F2" opacity="0.4"></path>
     </svg>
   </div>
 
@@ -857,7 +857,7 @@
     <!-- Decorative Botanical Motif -->
     <div class="hero-watermark" aria-hidden="true">
       <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <path d="M50 5 C30 20 10 30 15 50 C20 70 40 80 50 95 C60 80 80 70 85 50 C90 30 70 20 50 5 Z M50 35 C55 35 60 40 60 50 C60 60 55 65 50 65 C45 65 40 60 40 50 C40 40 45 35 50 35 Z M50 10 L50 20 M50 80 L50 90 M20 45 L28 48 M72 45 L80 48 M25 65 L32 60 M68 60 L75 65" fill="none" stroke="var(--primary)" stroke-width="2" opacity="0.15"/>
+        <path d="M50 5 C30 20 10 30 15 50 C20 70 40 80 50 95 C60 80 80 70 85 50 C90 30 70 20 50 5 Z M50 35 C55 35 60 40 60 50 C60 60 55 65 50 65 C45 65 40 60 40 50 C40 40 45 35 50 35 Z M50 10 L50 20 M50 80 L50 90 M20 45 L28 48 M72 45 L80 48 M25 65 L32 60 M68 60 L75 65" fill="none" stroke="var(--primary)" stroke-width="2" opacity="0.15"></path>
       </svg>
     </div>
 
@@ -883,8 +883,8 @@
       <article class="index-services-section__card index-services-section__card--accent">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
-            <path d="M16 28L22 34L32 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"></circle>
+            <path d="M16 28L22 34L32 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">הנפקת רישיון קנאביס רפואי</h3>
@@ -894,9 +894,9 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
-            <path d="M14 24C14 24 18 16 24 16C30 16 34 24 34 24C34 24 30 32 24 32C18 32 14 24 14 24Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="24" cy="24" r="3" stroke="currentColor" stroke-width="2"/>
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"></circle>
+            <path d="M14 24C14 24 18 16 24 16C30 16 34 24 34 24C34 24 30 32 24 32C18 32 14 24 14 24Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="24" cy="24" r="3" stroke="currentColor" stroke-width="2"></circle>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">חידוש רישיון בתום תוקף</h3>
@@ -906,9 +906,9 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
-            <path d="M16 28L22 34L32 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M32 20V16H28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"></circle>
+            <path d="M16 28L22 34L32 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M32 20V16H28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">הגדלת מינונים והתאמה אישית</h3>
@@ -918,10 +918,10 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
-            <path d="M18 16H30C32.2091 16 34 17.7909 34 20V32C34 34.2091 32.2091 36 30 36H18C15.7909 36 14 34.2091 14 32V20C14 17.7909 15.7909 16 18 16Z" stroke="currentColor" stroke-width="2"/>
-            <path d="M24 26V30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="24" cy="22" r="1.5" fill="currentColor"/>
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"></circle>
+            <path d="M18 16H30C32.2091 16 34 17.7909 34 20V32C34 34.2091 32.2091 36 30 36H18C15.7909 36 14 34.2091 14 32V20C14 17.7909 15.7909 16 18 16Z" stroke="currentColor" stroke-width="2"></path>
+            <path d="M24 26V30" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="22" r="1.5" fill="currentColor"></circle>
           </svg>
         </div>
         <h3 class="index-services-section__card-title">המלצות והפניות מרופא מומחה</h3>
@@ -932,7 +932,7 @@
   </div>
   <div class="index-services-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,20 Q150,50 300,15 T600,25 Q750,45 900,18 T1200,30 L1200,80 Z" fill="var(--bg-dark)"/>
+      <path d="M0,80 L0,20 Q150,50 300,15 T600,25 Q750,45 900,18 T1200,30 L1200,80 Z" fill="var(--bg-dark)"></path>
     </svg>
   </div>
 </section>
@@ -984,41 +984,41 @@
           <!-- Abstract procedural graphic: layered forms, route lines, document markers -->
           <svg class="index-process-section__graphic-svg" viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg">
             <!-- Document form 1 -->
-            <rect x="60" y="80" width="120" height="160" rx="6" stroke="var(--accent)" stroke-opacity="0.3" stroke-width="1.5" fill="var(--bg-dark)"/>
-            <line x1="75" y1="110" x2="165" y2="110" stroke="var(--text-light)" stroke-opacity="0.15" stroke-width="2"/>
-            <line x1="75" y1="130" x2="140" y2="130" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"/>
-            <line x1="75" y1="150" x2="155" y2="150" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"/>
-            <line x1="75" y1="170" x2="120" y2="170" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"/>
-            <circle cx="140" cy="200" r="12" stroke="var(--accent)" stroke-opacity="0.6" stroke-width="1.5"/>
-            <path d="M134 200 L138 204 L146 196" stroke="var(--accent)" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="60" y="80" width="120" height="160" rx="6" stroke="var(--accent)" stroke-opacity="0.3" stroke-width="1.5" fill="var(--bg-dark)"></rect>
+            <line x1="75" y1="110" x2="165" y2="110" stroke="var(--text-light)" stroke-opacity="0.15" stroke-width="2"></line>
+            <line x1="75" y1="130" x2="140" y2="130" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"></line>
+            <line x1="75" y1="150" x2="155" y2="150" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"></line>
+            <line x1="75" y1="170" x2="120" y2="170" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"></line>
+            <circle cx="140" cy="200" r="12" stroke="var(--accent)" stroke-opacity="0.6" stroke-width="1.5"></circle>
+            <path d="M134 200 L138 204 L146 196" stroke="var(--accent)" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
 
             <!-- Document form 2 (overlapped) -->
-            <rect x="220" y="140" width="120" height="160" rx="6" stroke="var(--primary)" stroke-opacity="0.4" stroke-width="1.5" fill="var(--bg-dark)"/>
-            <line x1="235" y1="170" x2="325" y2="170" stroke="var(--text-light)" stroke-opacity="0.15" stroke-width="2"/>
-            <line x1="235" y1="190" x2="300" y2="190" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"/>
-            <line x1="235" y1="210" x2="315" y2="210" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"/>
-            <circle cx="300" cy="260" r="12" stroke="var(--accent)" stroke-opacity="0.6" stroke-width="1.5"/>
-            <path d="M294 260 L298 264 L306 256" stroke="var(--accent)" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="220" y="140" width="120" height="160" rx="6" stroke="var(--primary)" stroke-opacity="0.4" stroke-width="1.5" fill="var(--bg-dark)"></rect>
+            <line x1="235" y1="170" x2="325" y2="170" stroke="var(--text-light)" stroke-opacity="0.15" stroke-width="2"></line>
+            <line x1="235" y1="190" x2="300" y2="190" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"></line>
+            <line x1="235" y1="210" x2="315" y2="210" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"></line>
+            <circle cx="300" cy="260" r="12" stroke="var(--accent)" stroke-opacity="0.6" stroke-width="1.5"></circle>
+            <path d="M294 260 L298 264 L306 256" stroke="var(--accent)" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
 
             <!-- Route lines connecting documents -->
-            <path d="M180 160 Q200 180 220 170" stroke="var(--accent)" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
-            <path d="M180 220 Q200 240 220 230" stroke="var(--primary)" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+            <path d="M180 160 Q200 180 220 170" stroke="var(--accent)" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4" fill="none"></path>
+            <path d="M180 220 Q200 240 220 230" stroke="var(--primary)" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4" fill="none"></path>
 
             <!-- Document form 3 (bottom) -->
-            <rect x="100" y="340" width="200" height="140" rx="6" stroke="var(--primary)" stroke-opacity="0.3" stroke-width="1.5" fill="var(--bg-dark)"/>
-            <line x1="120" y1="370" x2="280" y2="370" stroke="var(--text-light)" stroke-opacity="0.15" stroke-width="2"/>
-            <line x1="120" y1="390" x2="260" y2="390" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"/>
-            <line x1="120" y1="410" x2="240" y2="410" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"/>
-            <circle cx="260" cy="450" r="12" stroke="var(--accent)" stroke-opacity="0.8" stroke-width="1.5" fill="var(--accent)" fill-opacity="0.1"/>
-            <path d="M254 450 L258 454 L266 446" stroke="var(--accent)" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="100" y="340" width="200" height="140" rx="6" stroke="var(--primary)" stroke-opacity="0.3" stroke-width="1.5" fill="var(--bg-dark)"></rect>
+            <line x1="120" y1="370" x2="280" y2="370" stroke="var(--text-light)" stroke-opacity="0.15" stroke-width="2"></line>
+            <line x1="120" y1="390" x2="260" y2="390" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"></line>
+            <line x1="120" y1="410" x2="240" y2="410" stroke="var(--text-light)" stroke-opacity="0.1" stroke-width="2"></line>
+            <circle cx="260" cy="450" r="12" stroke="var(--accent)" stroke-opacity="0.8" stroke-width="1.5" fill="var(--accent)" fill-opacity="0.1"></circle>
+            <path d="M254 450 L258 454 L266 446" stroke="var(--accent)" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
 
             <!-- Central route line -->
-            <path d="M200 300 L200 340" stroke="var(--accent)" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+            <path d="M200 300 L200 340" stroke="var(--accent)" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="4 4" fill="none"></path>
             
             <!-- Decorative circles -->
-            <circle cx="60" cy="80" r="4" fill="var(--accent)" fill-opacity="0.4"/>
-            <circle cx="340" cy="500" r="6" fill="var(--primary)" fill-opacity="0.3"/>
-            <circle cx="80" cy="520" r="3" fill="var(--accent)" fill-opacity="0.5"/>
+            <circle cx="60" cy="80" r="4" fill="var(--accent)" fill-opacity="0.4"></circle>
+            <circle cx="340" cy="500" r="6" fill="var(--primary)" fill-opacity="0.3"></circle>
+            <circle cx="80" cy="520" r="3" fill="var(--accent)" fill-opacity="0.5"></circle>
           </svg>
         </div>
         <img loading="lazy" decoding="async" class="index-process-section__visual-img" data-placeholder="index-process-image-1" data-context="A premium, editorial-style abstract illustration for a medical cannabis consulting firm. The image features layered translucent document forms, delicate route lines connecting them, and subtle botanical leaf motifs rendered in deep forest green, teal, and amber accents. The composition feels strategic, reassuring, and sophisticated, resembling a premium guidebook to a complex system. No faces, no real documents, purely abstract and elegant." width="400" height="500" src="/assets/site-index-process-image-1.webp" alt="תהליך ליווי מקצועי להנפקת רישיון קנאביס רפואי">
@@ -1029,8 +1029,8 @@
   <!-- Bottom Divider: Curved translucent wave overlap -->
   <div class="index-process-section__divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,30 Q150,10 300,35 T600,25 Q750,40 900,20 T1200,35 L1200,80 Z" fill="#F7F5F2" opacity="0.95"/>
-      <path d="M0,80 L0,45 Q200,25 400,50 T800,40 Q1000,55 1200,45 L1200,80 Z" fill="#F7F5F2" opacity="0.6"/>
+      <path d="M0,80 L0,30 Q150,10 300,35 T600,25 Q750,40 900,20 T1200,35 L1200,80 Z" fill="#F7F5F2" opacity="0.95"></path>
+      <path d="M0,80 L0,45 Q200,25 400,50 T800,40 Q1000,55 1200,45 L1200,80 Z" fill="#F7F5F2" opacity="0.6"></path>
     </svg>
   </div>
 </section>
@@ -1046,9 +1046,9 @@
         </h2>
         <div class="index-benefits-section__divider-ornament" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 200 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="0" y1="10" x2="85" y2="10" stroke="var(--accent)" stroke-width="1.5"/>
-            <circle cx="100" cy="10" r="4" fill="var(--accent)"/>
-            <line x1="115" y1="10" x2="200" y2="10" stroke="var(--accent)" stroke-width="1.5"/>
+            <line x1="0" y1="10" x2="85" y2="10" stroke="var(--accent)" stroke-width="1.5"></line>
+            <circle cx="100" cy="10" r="4" fill="var(--accent)"></circle>
+            <line x1="115" y1="10" x2="200" y2="10" stroke="var(--accent)" stroke-width="1.5"></line>
           </svg>
         </div>
         <p class="index-benefits-section__intro">
@@ -1064,7 +1064,7 @@
           <img loading="lazy" decoding="async" data-placeholder="index-benefits-image-1" data-context="A warm, atmospheric consultation scene in a modern medical clinic with soft botanical accents, showing a caring doctor or consultant reviewing documents with a patient, gentle natural light, editorial composition, depth of field, Israeli healthcare setting" width="600" height="750" src="/assets/site-index-benefits-image-1.webp" alt="ייעוץ רפואי אישי במרפאת CannaMed" class="index-benefits-section__main-image">
           <!-- Decorative backplate peeking from bottom-left corner -->
           <div class="index-benefits-section__backplate" aria-hidden="true">
-            <img loading="lazy" decoding="async" data-placeholder="index-benefits-image-2" data-context="A soft, out-of-focus macro detail of cannabis leaf texture with subtle medical document overlay, translucent, muted green and cream tones, editorial depth" width="400" height="500" src="/assets/site-index-benefits-image-2.webp" alt class="index-benefits-section__backplate-image">
+            <img loading="lazy" decoding="async" data-placeholder="index-benefits-image-2" data-context="A soft, out-of-focus macro detail of cannabis leaf texture with subtle medical document overlay, translucent, muted green and cream tones, editorial depth" width="400" height="500" src="/assets/site-index-benefits-image-2.webp" alt="" class="index-benefits-section__backplate-image">
           </div>
         </div>
       </div>
@@ -1076,8 +1076,8 @@
       <article class="index-benefits-section__benefit-card">
         <div class="index-benefits-section__benefit-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="var(--primary)" stroke-width="2" fill="none"/>
-            <path d="M14 26L20 32L34 18" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="24" cy="24" r="20" stroke="var(--primary)" stroke-width="2" fill="none"></circle>
+            <path d="M14 26L20 32L34 18" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="index-benefits-section__benefit-title">בהירות מקצועית</h3>
@@ -1089,9 +1089,9 @@
       <article class="index-benefits-section__benefit-card">
         <div class="index-benefits-section__benefit-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="var(--primary)" stroke-width="2" fill="none"/>
-            <path d="M24 14V24L30 28" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="24" cy="24" r="3" fill="var(--primary)"/>
+            <circle cx="24" cy="24" r="20" stroke="var(--primary)" stroke-width="2" fill="none"></circle>
+            <path d="M24 14V24L30 28" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="24" cy="24" r="3" fill="var(--primary)"></circle>
           </svg>
         </div>
         <h3 class="index-benefits-section__benefit-title">ליווי אישי צמוד</h3>
@@ -1103,9 +1103,9 @@
       <article class="index-benefits-section__benefit-card">
         <div class="index-benefits-section__benefit-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="var(--primary)" stroke-width="2" fill="none"/>
-            <path d="M16 28L22 20L28 26L34 16" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="34" cy="16" r="3" fill="var(--primary)"/>
+            <circle cx="24" cy="24" r="20" stroke="var(--primary)" stroke-width="2" fill="none"></circle>
+            <path d="M16 28L22 20L28 26L34 16" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="34" cy="16" r="3" fill="var(--primary)"></circle>
           </svg>
         </div>
         <h3 class="index-benefits-section__benefit-title">ביטחון דרך ניסיון</h3>
@@ -1121,10 +1121,10 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <filter id="index-benefits-torn-shadow" x="-5%" y="-20%" width="110%" height="140%">
-          <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.08"/>
+          <fedropshadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.08"></fedropshadow>
         </filter>
       </defs>
-      <path d="M0,80 L0,45 Q30,38 60,42 T120,35 Q150,40 180,38 T240,45 Q270,40 300,35 T360,42 Q390,38 420,40 T480,35 Q510,42 540,38 T600,45 Q630,40 660,35 T720,42 Q750,38 780,40 T840,35 Q870,42 900,38 T960,45 Q990,40 1020,35 T1080,42 Q1110,38 1140,40 T1200,45 L1200,80 Z" fill="var(--bg-dark)" filter="url(#index-benefits-torn-shadow)"/>
+      <path d="M0,80 L0,45 Q30,38 60,42 T120,35 Q150,40 180,38 T240,45 Q270,40 300,35 T360,42 Q390,38 420,40 T480,35 Q510,42 540,38 T600,45 Q630,40 660,35 T720,42 Q750,38 780,40 T840,35 Q870,42 900,38 T960,45 Q990,40 1020,35 T1080,42 Q1110,38 1140,40 T1200,45 L1200,80 Z" fill="var(--bg-dark)" filter="url(#index-benefits-torn-shadow)"></path>
     </svg>
   </div>
 </section>
@@ -1184,14 +1184,14 @@
             <!-- Gradient definition -->
             <defs>
                 <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="1"/>
-                    <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"/>
+                    <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="1"></stop>
+                    <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"></stop>
                 </linearGradient>
             </defs>
             <!-- Main gradient fill -->
-            <path d="M0,80 L0,0 Q100,10 200,5 T400,10 Q500,5 600,10 T800,5 Q900,10 1000,5 T1200,10 L1200,80 Z" fill="#F7F5F2"/>
+            <path d="M0,80 L0,0 Q100,10 200,5 T400,10 Q500,5 600,10 T800,5 Q900,10 1000,5 T1200,10 L1200,80 Z" fill="#F7F5F2"></path>
             <!-- Amber accent line -->
-            <path d="M0,8 Q100,18 200,13 T400,18 Q500,13 600,18 T800,13 Q900,18 1000,13 T1200,18" fill="#F7F5F2" stroke="var(--accent)" stroke-width="2" opacity="0.7"/>
+            <path d="M0,8 Q100,18 200,13 T400,18 Q500,13 600,18 T800,13 Q900,18 1000,13 T1200,18" fill="#F7F5F2" stroke="var(--accent)" stroke-width="2" opacity="0.7"></path>
         </svg>
     </div>
 </section>
@@ -1228,19 +1228,19 @@
 
     <div class="index-stats-section__trust-strip">
       <div class="index-stats-section__trust-item">
-        <span class="index-stats-section__trust-icon" aria-hidden="true"><svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>
+        <span class="index-stats-section__trust-icon" aria-hidden="true"><svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></span>
         <span>מקצועיות רפואית מוכחת</span>
       </div>
       <div class="index-stats-section__trust-item">
-        <span class="index-stats-section__trust-icon" aria-hidden="true"><svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+        <span class="index-stats-section__trust-icon" aria-hidden="true"><svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></span>
         <span>דיסקרטיות מלאה לאורך כל הדרך</span>
       </div>
       <div class="index-stats-section__trust-item">
-        <span class="index-stats-section__trust-icon" aria-hidden="true"><svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+        <span class="index-stats-section__trust-icon" aria-hidden="true"><svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg></span>
         <span>שקיפות ובהירות לאורך כל התהליך</span>
       </div>
       <div class="index-stats-section__trust-item">
-        <span class="index-stats-section__trust-icon" aria-hidden="true"><svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
+        <span class="index-stats-section__trust-icon" aria-hidden="true"><svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
         <span>מעקב וליווי גם אחרי קבלת הרישיון</span>
       </div>
     </div>
@@ -1250,11 +1250,11 @@
   <div class="index-stats-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Base dark field -->
-      <path d="M0,80 L0,30 Q100,45 200,28 T400,32 Q500,48 600,26 T800,34 Q900,44 1000,30 T1200,36 L1200,80 Z" fill="#0F1A12"/>
+      <path d="M0,80 L0,30 Q100,45 200,28 T400,32 Q500,48 600,26 T800,34 Q900,44 1000,30 T1200,36 L1200,80 Z" fill="#0F1A12"></path>
       <!-- Topographic contour line 1 -->
-      <path d="M0,50 L0,20 Q150,38 300,18 T600,24 Q750,40 900,22 T1200,28 L1200,50" fill="#0F1A12" stroke="rgba(242, 179, 93, 0.3)" stroke-width="1.5"/>
+      <path d="M0,50 L0,20 Q150,38 300,18 T600,24 Q750,40 900,22 T1200,28 L1200,50" fill="#0F1A12" stroke="rgba(242, 179, 93, 0.3)" stroke-width="1.5"></path>
       <!-- Topographic contour line 2 -->
-      <path d="M0,65 L0,40 Q200,52 400,35 T800,42 Q950,56 1100,38 T1200,44 L1200,65" fill="#0F1A12" stroke="rgba(242, 179, 93, 0.15)" stroke-width="1"/>
+      <path d="M0,65 L0,40 Q200,52 400,35 T800,42 Q950,56 1100,38 T1200,44 L1200,65" fill="#0F1A12" stroke="rgba(242, 179, 93, 0.15)" stroke-width="1"></path>
     </svg>
   </div>
 </section>
@@ -1264,26 +1264,26 @@
   <svg data-no-icon-edit="true" aria-hidden="true" class="index-contact-section__bg-texture" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <pattern id="map-contour" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-        <path d="M0 60 Q15 45 30 60 T60 60" fill="none" stroke="var(--text-light)" stroke-opacity="0.04" stroke-width="1.5"/>
-        <path d="M0 30 Q15 15 30 30 T60 30" fill="none" stroke="var(--text-light)" stroke-opacity="0.03" stroke-width="1"/>
-        <circle cx="30" cy="30" r="2" fill="var(--text-light)" fill-opacity="0.06"/>
+        <path d="M0 60 Q15 45 30 60 T60 60" fill="none" stroke="var(--text-light)" stroke-opacity="0.04" stroke-width="1.5"></path>
+        <path d="M0 30 Q15 15 30 30 T60 30" fill="none" stroke="var(--text-light)" stroke-opacity="0.03" stroke-width="1"></path>
+        <circle cx="30" cy="30" r="2" fill="var(--text-light)" fill-opacity="0.06"></circle>
       </pattern>
       <pattern id="botanical-dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-        <circle cx="20" cy="20" r="1.5" fill="var(--accent)" fill-opacity="0.08"/>
+        <circle cx="20" cy="20" r="1.5" fill="var(--accent)" fill-opacity="0.08"></circle>
       </pattern>
       <radialGradient id="glow-amber" cx="30%" cy="70%" r="60%">
-        <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.15"/>
-        <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+        <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.15"></stop>
+        <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"></stop>
       </radialGradient>
       <radialGradient id="glow-teal" cx="80%" cy="20%" r="50%">
-        <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.1"/>
-        <stop offset="100%" stop-color="var(--primary)" stop-opacity="0"/>
+        <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.1"></stop>
+        <stop offset="100%" stop-color="var(--primary)" stop-opacity="0"></stop>
       </radialGradient>
     </defs>
-    <rect width="100%" height="100%" fill="url(#map-contour)"/>
-    <rect width="100%" height="100%" fill="url(#botanical-dots)"/>
-    <rect width="100%" height="100%" fill="url(#glow-amber)"/>
-    <rect width="100%" height="100%" fill="url(#glow-teal)"/>
+    <rect width="100%" height="100%" fill="url(#map-contour)"></rect>
+    <rect width="100%" height="100%" fill="url(#botanical-dots)"></rect>
+    <rect width="100%" height="100%" fill="url(#glow-amber)"></rect>
+    <rect width="100%" height="100%" fill="url(#glow-teal)"></rect>
   </svg>
 
   <div class="index-contact-section__container">
@@ -1298,25 +1298,25 @@
       <ul class="index-contact-section__benefits">
         <li class="index-contact-section__benefit-item">
           <span class="index-contact-section__benefit-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           </span>
           <span class="index-contact-section__benefit-text">ליווי מלא בהוצאת רישיון קנאביס רפואי</span>
         </li>
         <li class="index-contact-section__benefit-item">
           <span class="index-contact-section__benefit-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           </span>
           <span class="index-contact-section__benefit-text">חידוש רישיון והגדלת מינונים בקלות</span>
         </li>
         <li class="index-contact-section__benefit-item">
           <span class="index-contact-section__benefit-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           </span>
           <span class="index-contact-section__benefit-text">המלצות והפניות מרופאים מומחים</span>
         </li>
         <li class="index-contact-section__benefit-item">
           <span class="index-contact-section__benefit-icon" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           </span>
           <span class="index-contact-section__benefit-text">מענה מקצועי ומותאם אישית למטופלים ומטפלים</span>
         </li>
@@ -1333,15 +1333,15 @@
         <form class="contact-form">
           <div class="index-contact-section__field">
             <label for="index-contact-name" class="index-contact-section__label">שם מלא</label>
-            <input type="text" id="index-contact-name" name="name" class="index-contact-section__input" placeholder="ישראל ישראלי" required>
+            <input type="text" id="index-contact-name" name="name" class="index-contact-section__input" placeholder="ישראל ישראלי" required="">
           </div>
           <div class="index-contact-section__field">
             <label for="index-contact-email" class="index-contact-section__label">אימייל</label>
-            <input type="email" id="index-contact-email" name="email" class="index-contact-section__input" placeholder="israel@example.com" required>
+            <input type="email" id="index-contact-email" name="email" class="index-contact-section__input" placeholder="israel@example.com" required="">
           </div>
           <div class="index-contact-section__field">
             <label for="index-contact-phone" class="index-contact-section__label">טלפון</label>
-            <input type="tel" id="index-contact-phone" name="phone" class="index-contact-section__input" placeholder="050-0000000" required>
+            <input type="tel" id="index-contact-phone" name="phone" class="index-contact-section__input" placeholder="050-0000000" required="">
           </div>
           <div class="index-contact-section__field">
             <label for="index-contact-message" class="index-contact-section__label">הודעה</label>
@@ -1349,13 +1349,13 @@
           </div>
           <div class="privacy-consent">
             <label class="privacy-consent-label">
-              <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required>
+              <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
               <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
             </label>
           </div>
           <button type="submit" class="index-contact-section__submit-btn">
             שלחו פנייה
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
           </button>
         </form>
       </div>
@@ -1391,11 +1391,11 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:Cannamed121@gmail.com">Cannamed121@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972548383394">+972548383394</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
@@ -1405,20 +1405,18 @@
       <!-- Business Hours Column -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media Column -->
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972548383394" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1438,7 +1436,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972548383394" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
